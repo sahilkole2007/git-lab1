@@ -1,0 +1,14 @@
+name: DevOps Lab Workflows
+
+on:
+ workflow_dispatch:
+
+jobs:
+  echo-steps:
+   run-on: ubuntu-latest
+   steps:
+    - name: First Step
+      run: echo "This is first step"
+
+    - name: Second Step
+      run: echo "This is second step"
