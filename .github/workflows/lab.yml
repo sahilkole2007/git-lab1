@@ -7,9 +7,9 @@ jobs:
  echo-steps:
   runs-on: ubuntu-latest
   steps:
-   -name: First Step
+ -name: First Step
 
-   run: echo"This is first step"
+ run: echo"This is first step"
 
-   -name: Second Step
-  run: echo"this is second step"
+ -name: Second Step run:
+ run: echo"this is second step"
