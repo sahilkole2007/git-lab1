@@ -1,7 +1,8 @@
 name: DevOps Lab workflows
 
 on:
- workflow_dispatch:
+  push:
+  workflow_dispatch:
 
 jobs:
   echo-steps:
